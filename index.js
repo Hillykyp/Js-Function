@@ -51,3 +51,17 @@ let myName = (name, age) => {
 
 }
 myName("Hosea", 23);
+
+let loginMessage = () => {
+
+    let textMessage = "Successful submission";
+    if (textMessage == "") {
+        document.write("Empty");
+    } else {
+        document.write('success')
+
+    }
+    document.getElementById('btn').innerHTML = textMessage;
+
+}
+loginMessage();
